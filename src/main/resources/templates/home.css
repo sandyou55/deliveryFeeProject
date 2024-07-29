@@ -1,0 +1,102 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+    font-family: "Inter", monospace;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li{
+    margin: 0 120px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.nav ul li:hover a{
+    color: #ED785E;
+}
+
+.colorBox {
+    height: 590px;
+    color: white;
+    font-weight: 300;
+}
+
+.boyPic{
+    margin-bottom: -575px;
+    height: 500px;
+    margin-left: 400px;
+}
+
+.bubble{
+    height: 412px;
+    width: 1000px;
+    margin-top: -20px;
+    float:right;
+}
+
+.bubble_text{
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate( -45%, -50% );
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 60%;
+    text-align: center;
+}
+
+.colorBox p {
+    font-size: 40px;
+    font-weight: bold;
+    float:right;
+    margin-top: -10px;
+    letter-spacing: 5px;
+}
+
+.description{
+    text-align: center;
+    margin-top: 50px;
+    font-size:20px;
+    color: #ED785E;
+}
+
+.my_btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #ED785E;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}

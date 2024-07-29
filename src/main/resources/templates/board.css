@@ -1,0 +1,109 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+    font-family: "Inter", monospace;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li{
+    margin: 0 120px;
+    color: black;
+}
+
+.nav ul li.active a{
+    color: #ED785E;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li:hover a{
+    color: #ED785E;
+}
+
+.board-categories {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.category {
+    margin: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.category.active, .category:hover {
+    color: #ED785E;
+}
+
+.board-columns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.board-column {
+    width: 30%;
+    border: 1px solid #ED785E;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column-title {
+    font-size: 25px;
+    color: #ED785E;
+    text-align: center;
+}
+
+.post-card {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.post-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.post-title {
+    font-size: 15px;
+    color: #ED785E;
+    font-weight: bold;
+}
+
+.post-description {
+    font-size: 12px;
+    color: black;
+}

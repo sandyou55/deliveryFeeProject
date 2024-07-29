@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+    <link href="create.css" rel="stylesheet">
+</head>
+<body>
+    <h1>같이 먹고 싶은 음식을 설명해주세요</h1>
+    <form id="writeForm" action="" method="post">
+        <div >제목: <input type="text" name="" placeholder ="가게명을 포함해서 입력해주세요" class="title"></div>
+        <div>모집 인원수:
+            <select>
+            <option value="" selected="selected">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+        </select>
+        </div>
+        <div>배달비: <input type="number" name=""> 원</div>
+        <div>시간: <input type="time"></div>
+        <div>위치:
+            <select>
+                <option value="" selected="selected">야외공연장</option>
+                <option value="">매점 앞</option>
+                <option value="">로뎀관</option>
+                <option value="">벧엘관</option>
+                <option value="">창조관</option>
+                <option value="">비전관</option>
+                <option value="">국제관</option>
+                <option value="">은혜관</option>
+                <option value="">하용조관</option>
+                <option value="">갈대상자관</option>
+                <option value="">그레이스홀</option>
+                <option value="">코너스톤홀</option>
+                <option value="">올네이션스홀</option>
+            </select>
+        </div>
+        <div>연락 방법:<br>
+            <input type="text" name="" placeholder ="오픈채팅방 주소나 핸드폰 번호를 입력해주세요" class="contacts">
+        </div>
+        <div>특이사항:<br>
+            <input type="text" name="" class="text">
+        </div>
+        <div style="line-height:50%">사진:<br>
+            <p>사진 추가를 안할 시 기본 이미지로 대체됩니다.</p><br>
+            <button class="img_btn"><img src="./png/yum.png"></button>
+        </div>
+    </form>
+    <input type="submit" value="저장하기">
+</body>
+</html>
